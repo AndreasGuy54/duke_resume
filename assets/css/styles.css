@@ -3,11 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/*===== VARIABLES CSS =====*/
+/*VARIABLES CSS*/
 :root {
 	--header-height: 3rem;
 
-	/*========== Colors ==========*/
+	/* COLOURS */
 	--title-color: #0b0a0a;
 	--text-color: #403a3a;
 	--text-color-light: #707070;
@@ -15,7 +15,7 @@
 	--container-color-alt: #f0efef;
 	--body-color: #fcfcfc;
 
-	/*========== Font and typography ==========*/
+	/* FONT AND TYPOGRAPHY*/
 	--body-font: 'Poppins', sans-serif;
 	--h1-font-size: 1.5rem;
 	--h2-font-size: 1.25rem;
@@ -24,61 +24,67 @@
 	--small-font-size: .875rem;
 	--smaller-font-size: .813rem;
 
-	/*========== Font weight ==========*/
+	/* FONT WEIGHT*/
 	--font-medium: 500;
 	--font-semi-bold: 600;
 
-	/*========== Margenes ==========*/
+	/* MARGINS */
 	--mb-1: .5rem;
 	--mb-2: 1rem;
 	--mb-3: 1.5rem;
 
-	/*========== z index ==========*/
+	/* Z INDEX */
 	--z-tooltip: 10;
 	--z-fixed: 100;
 }
 
-/*========== BASE ==========*/
+/* BASE */
+::before,
+::after {
+	box-sizing: border-box;
+}
 
-/*========== Variables Dark theme ==========*/
+html {
+	scroll-behavior: smooth;
+}
+/* VARIABLES DARK THEME */
 
-/*========== Button Dark/Light ==========*/
+/* BUTTON DARK / LIGHT  */
 
-/*========== Font size variables to scale cv ==========*/
+/* FONT SIZE VARIABLES TO SCALE CV */
 
-/*========== Generate PDF button ==========*/
+/* GENERATE PDF BUTTON */
 
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+/* CLASSES MODIFIED TO REDUCE SIZE AND PRINT ON A4 SHEET */
 
-/*========== CLASS CSS ==========*/
+/* CLASS CSS */
 
-/*========== LAYOUT ==========*/
+/* LAYOUT  */
 
-/*========== NAV ==========*/
+/* NAV  */
 
-/* Show menu */
+/* SHOW MENU */
 
-/* Active menu link */
+/* ACTIVE MENU LINK */
 
-/*========== HOME ==========*/
+/* HOME */
 
-/*========== SOCIAL ==========*/
+/* SOCIAL */
 
-/*========== PROFILE ==========*/
+/* PROFILE */
 
-/*========== EDUCATION AND EXPERIENCE ==========*/
+/* EDUCATION AND EXPERIENCE */
 
-/*========== SKILLS AND LANGUAGES ==========*/
+/* SKILLS AND LANGUAGES */
 
-/*========== CERTIFICATES ==========*/
+/* REFERENCES */
 
-/*========== REFERENCES ==========*/
+/* INTERESTS */
 
-/*========== INTERESTS ==========*/
+/* SCROLL TOP */
 
-/* Scroll top */
+/* MEDIA QUERIES */
 
-/*========== MEDIA QUERIES ==========*/
-/* For small devices, menu two columns */
+/* FOR SMALL DEVICES, MENU 2 COLUMNS */
 
-/* Classes modified for large screen size */
+/* CLASSES MODIFIED FOR LARGE SCREEN SIZE */

@@ -269,18 +269,21 @@ img {
 }
 
 .social__link {
-	display: inline-block;
+	display: inline-flex;
 	align-items: center;
 	font-size: var(--small-font-size);
 	color: var(--text-color);
 }
 
 .social__icon {
-	font-size: 1.2.rem;
+	font-size: 1.2rem;
 	margin-right: .25rem;
 }
 
 /* PROFILE */
+.profile__description {
+	text-align: center;
+}
 
 /* EDUCATION AND EXPERIENCE */
 
